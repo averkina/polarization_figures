@@ -1,15 +1,3 @@
-"""
-Картинки поляризации для схемы 1 с парой пластин λ/4 + λ/2.
-
-Рисунок 1: идеальные пластинки (эллипс -> отрезок -> вдоль p).
-Рисунок 2: пластинки с ошибками установки δψ_Q, δψ_H.
-
-Масштаб преувеличен: утечка b = 0.35 вместо 3e-3, ошибки в градусах
-вместо микрорадиан, иначе эллипс неотличим от отрезка.
-
-Запуск:  python polarization_figures.py
-Результат: scheme1_ideal.pdf/.png и scheme1_errors.pdf/.png
-"""
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Arc, FancyArrowPatch
